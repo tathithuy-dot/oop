@@ -3,9 +3,11 @@
     
     private static void Main(string[] args)
     {
-        MyDate md1 = new MyDate(DateTime.Now.Day,DateTime.Now.Month, DateTime.Now.Year);
-        Console.WriteLine("{0}/{1}/{2}",md1.Day,md1.Month,md1.Year);
-        Console.ReadKey();
-        Console.WriteLine();
+        private string fullname = "Tạ Thị Thủy";
+        private string studentId = "12424029";
+        private string className = "12424TN";
+        private string githubUsername = "tathithuy-dot";
+        private string email = "tathithuytathithuy12@gmail.com";
+        Console.WriteLine("Họ tên, mã sinh viên, lớp, username GitHub, địa chỉ email:{0}\t{1}\t{2}\t{3}",fullname,studenId,className,githubUsername,email);
     }
 }
