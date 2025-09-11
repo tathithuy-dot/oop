@@ -84,10 +84,10 @@ namespace HW2
                 for (int j = 0; j<people.Length - i -1;  j++)
                 {
                     // So sánh cặp phần tử liền kề
-                    if (people[i].Salary > people[j+1].Salary) // Đổi chỗ nếu phần tử trước lớn hơn phần tử sau.
+                    if (people[j].Salary > people[j+1].Salary) // Đổi chỗ nếu phần tử trước lớn hơn phần tử sau.
                     {
-                        Person tmp = people[i];
-                        people[i] = people[j+1];
+                        Person tmp = people[j];
+                        people[j] = people[j+1];
                         people[j+1] = tmp;
                     }
                 }
