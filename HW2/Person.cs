@@ -84,7 +84,7 @@ namespace HW2
                 for (int j = 0; j<people.Length - i -1;  j++)
                 {
                     // So sánh cặp phần tử liền kề
-                    if (people[j].Salary > people[j+1].Salary) // Đổi chỗ nếu phần tử trước lớn hơn phần tử sau.
+                    if (people[j].Salary > people[j+1].Salary) // Đổi chỗ nếu lương của người trước lớn hơn của người sau.
                     {
                         Person tmp = people[j];
                         people[j] = people[j+1];
