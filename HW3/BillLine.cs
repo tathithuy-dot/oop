@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+// Phần mở rộng của đề bài:
 namespace BTH_GroceryBill
 {
     public class BillLine // Class BillLine đại diện cho một dòng trong hóa đơn, bao gồm mặt hàng và số lượng
