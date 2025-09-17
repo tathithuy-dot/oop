@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+// Phần mở rộng của đề bài
 namespace BTH_GroceryBill
 {
     public class GroceryBillWithLines // Class Hóa đơn tạp hóa với các dòng, mỗi dòng bao gồm mặt hàng và số lượng
