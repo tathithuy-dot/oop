@@ -1,10 +1,26 @@
-﻿internal class Program
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace HW4
 {
-    
-    private static void Main(string[] args)
-    {
-        MyDate md1 = new MyDate(DateTime.Now.Day,DateTime.Now.Month, DateTime.Now.Year);
-        Console.WriteLine("{0}/{1}/{2}",md1.Day,md1.Month,md1.Year);
-        Console.ReadKey();
+   internal abstract class  ThietBi
+{
+        public string NhaSX { get; set; }
+        public string Model { get; set; }
+        public double Gia { get; set; }
+        public ThietBi()
+        {
+
+        }
+        public ThietBi(string nhasx, string model, double gia)
+        {
+            NhaSX = nhasx;
+            Model = model;
+            Gia = gia;
+        }
+        public abstract void Nhap();
+        public abstract void Xuat();
     }
 }
+
