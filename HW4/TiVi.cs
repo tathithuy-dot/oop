@@ -1,4 +1,3 @@
-﻿using HW4;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW4
 {
-    internal class TiVi: ThietBi
+    internal class TiVi: ThietBi //Kế thừa
     {
         public double KichThuocManHinh { get; set; }
         public override void Nhap()
@@ -21,6 +20,7 @@ namespace HW4
             Console.Write("Nhap Kich Thuoc: ");
             KichThuocManHinh = Convert.ToDouble(Console.ReadLine());
         }
+        //Xuất thông tin ti vi
         public override void Xuat()
         {
             Console.WriteLine("Thong Tin Ti Vi:");
@@ -31,3 +31,4 @@ namespace HW4
         }
     }
 }
+
