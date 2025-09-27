@@ -8,8 +8,9 @@ namespace HW4
 {
     internal class TiVi: ThietBi //Kế thừa
     {
-        public double KichThuocManHinh { get; set; }
-        public override void Nhap()
+        public double KichThuocManHinh { get; set; }// Thêm thuộc tính mới, kế thừa những thuộc tính của ThietBi
+        //Nhập thông tin của lớp MayLanh (những thông tin như nhà sản xuất, model, giá được kế thừa từ lớp ThietBi)
+        public override void Nhap() //Dùng override ghi đè
         {
             Console.Write("Nhap Nha San Xuat: ");
             NhaSX = Console.ReadLine();
@@ -21,7 +22,7 @@ namespace HW4
             KichThuocManHinh = Convert.ToDouble(Console.ReadLine());
         }
         //Xuất thông tin ti vi
-        public override void Xuat()
+        public override void Xuat()//Dùng override ghi đè
         {
             Console.WriteLine("Thong Tin Ti Vi:");
             Console.WriteLine("Nha San Xuat: " + NhaSX);
@@ -31,4 +32,5 @@ namespace HW4
         }
     }
 }
+
 
