@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW4
 {
+        //Class tinh tien phong loai C
         class PhongC : Phong//Class Phong C ke thua tu class Phong
     {
         public PhongC (int songay) : base(songay)//Ke thua het cac thanh phan du lieu cua class Phong
@@ -20,6 +21,7 @@ namespace HW4
         }
     }
 }
+
 
 
 
