@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace HW4
 {
+        //Class tinh tien phong loai A
         class PhongA : Phong //Class Phong A ke thua tu class Phong
     {
         protected int tiendv;// Thanh phan du lieu
@@ -30,5 +31,6 @@ namespace HW4
         }
     }
 }
+
 
 
