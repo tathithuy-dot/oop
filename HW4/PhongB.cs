@@ -4,6 +4,7 @@ using System.Text;
 
 namespace HW4
 {
+      //Xay dung class tinh tien phong loai B
       class PhongB : Phong//Class Phong B ke thua tu class Phong
    {
        public PhongB(int songay) : base(songay)//Ke thua het cac thanh phan du lieu cua class Phong
@@ -21,6 +22,7 @@ namespace HW4
        }
    }
 }
+
 
 
 
