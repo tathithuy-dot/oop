@@ -1,10 +1,16 @@
-﻿internal class Program
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace Cuahangxe
 {
-    
-    private static void Main(string[] args)
+    internal class Program
     {
-        MyDate md1 = new MyDate(DateTime.Now.Day,DateTime.Now.Month, DateTime.Now.Year);
-        Console.WriteLine("{0}/{1}/{2}",md1.Day,md1.Month,md1.Year);
-        Console.ReadKey();
+        static void Main(string[] args)
+        {
+            Yamada yamada = new Yamada();
+            yamada.Menu();
+        }
     }
 }
