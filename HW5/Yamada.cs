@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Cuahangxe
 {
     internal class Yamada
     {
@@ -106,3 +106,4 @@ namespace ConsoleApp1
         }
     }
 }
+
