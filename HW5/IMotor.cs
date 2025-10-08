@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Cuahangxe
 {
     internal interface IMotor
     {
@@ -13,3 +13,4 @@ namespace ConsoleApp1
         void changeInfo();
     }
 }
+
